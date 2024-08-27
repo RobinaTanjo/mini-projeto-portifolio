@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #102e4f;
+}
+
+header {
+    background-color: #102e4f;
+    color: #ffffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 1px solid #082663;
+    border-radius: 5px;
+}
+
+#bio {
+    background-color: #5886b1;
+    color: #f9f9f9;
+}
+
+#habilidades {
+    background-color: #3e5e8c;
+    color: #f9f9f9;
+}
+
+#atividades {
+    background-color: #527aab;
+    color: #fff;
+
+}
+
+.projetos {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.projeto {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.projeto h3 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #304067;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.imag1 {
+    width: 100%;
+}
+.imag2 {
+    width: 170px;
+    border-radius: 50%;
+    border-color: #f9f9f9;
+    border: 5px solid rgb(255, 255, 255);
+}
